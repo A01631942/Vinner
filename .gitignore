@@ -7,3 +7,6 @@ fundadors.json
 aliados.json
 .DS_Store
 extra
+equipo2.ejs
+views/new
+routes/new.js
