@@ -21,7 +21,7 @@
     <div class="row justify-content-center">
       <% fundadores.forEach(function(fundador){ %>
         <div class="col-xs-12 col-md-6 col-lg-4 text-center mt-2">
-          <a href="/equipo/fundadores/<%=fundador._id%>"><img class="w-50" src="<%= fundador.img %>" alt=""></a>
+          <a href="/equipo/fundadores/<%=fundador.show%>"><img class="w-50" src="<%= fundador.img %>" alt=""></a>
           <p class="mb-0"><%= fundador.namesm %></p>
           <p><%= fundador.prof %></p>
         </div>
@@ -35,7 +35,7 @@
     <div class="row">
       <% consultores.forEach(function(consultor){ %>
         <div class="col-xs-12 col-md-6 col-lg-4 text-center mt-2">
-          <a href="/equipo/consultores/<%=consultor._id%>"><img class="w-50" src="<%= consultor.img %>" alt=""></a>
+          <a href="/equipo/consultores/<%=consultor.show%>"><img class="w-50" src="<%= consultor.img %>" alt=""></a>
           <!-- <img class="w-50" src="<%= consultor.img %>" alt=""> -->
           <p class="mb-0"><%= consultor.namesm %></p>
           <p><%= consultor.prof %></p>
@@ -51,7 +51,7 @@
       <div class="row align-items-center m-auto">
         <% colaboradores.forEach(function(colaborador){ %>
           <div class="col-xs-12 col-md-6 col-lg-4 text-center mt-2">
-            <a href="/equipo/colaboradores/<%=colaborador._id%>"><img class="w-50" src="<%= colaborador.img %>" alt=""></a>
+            <a href="/equipo/colaboradores/<%=colaborador.show%>"><img class="w-50" src="<%= colaborador.img %>" alt=""></a>
             <p class="mb-0"><%= colaborador.namesm %></p>
             <p><%= colaborador.prof %></p>
           </div>
@@ -65,7 +65,7 @@
       <div class="row align-items-center m-auto">
         <% aliados.forEach(function(aliado){ %>
           <div class="col-xs-12 col-md-6 col-lg-4 text-center mt-2">
-            <a href="/equipo/aliados/<%=aliado._id%>"><img class="w-50" src="<%= aliado.img %>" alt=""></a>
+            <a href="/equipo/aliados/<%=aliado.show%>"><img class="w-50" src="<%= aliado.img %>" alt=""></a>
             <p class="mb-0"><%= aliado.namesm %></p>
             <p><%= aliado.prof %></p>
           </div>

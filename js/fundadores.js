@@ -1,6 +1,7 @@
 var fundadores=[
 // Valeria Toscano
-{namelg: "Valeria Toscano Alcalá",
+{show:"valeriatosal",
+namelg: "Valeria Toscano Alcalá",
  namesm: "Valeria Toscano",
  img: "../../imgs/Equipo/valeria-color.png",
  prof: "Licenciada en Diseño Industrial",
@@ -8,7 +9,8 @@ var fundadores=[
  quote: "Quiero lograr que toda mujer en México se sienta libre de salir a la calle sabiendo que va a regresar sana y salva",
 linkedin: "https://www.linkedin.com/in/valeria-toscano-alcala/"},
 // Jesús Edgar
-{namelg: "Jesús Edgar Lamarque Tirado",
+{show:"edgarlamtir",
+namelg: "Jesús Edgar Lamarque Tirado",
  namesm: "Edgar Lamarque",
  img: "../../imgs/Equipo/edgar-color.png",
  prof: "Estudiante de Ing. Mecánic Administrador",
