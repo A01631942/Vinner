@@ -1,0 +1,82 @@
+<%- include("./partials/header") %>
+
+<!-- CONTENIDO -->
+
+
+<div class="text-center">
+    <h1 class="mt-4">Nuestro Equipo</h1>
+</div>
+
+<section>
+  <div id="equipo" class="jumbotron"></div>
+</section>
+
+
+  <!-- ============================================= -->
+  <!-- fundadores -->
+  <section class="equipo text-center">
+    <div class="text-center blue">
+        <p class="title">Fundadores</p>
+    </div>
+    <div class="row justify-content-center">
+      <% fundadores.forEach(function(fundador){ %>
+        <div class="col-xs-12 col-md-6 col-lg-4 text-center mt-2">
+          <a href="/equipo/fundadores/<%=fundador._id%>"><img class="w-50" src="<%= fundador.img %>" alt=""></a>
+          <p class="mb-0"><%= fundador.namesm %></p>
+          <p><%= fundador.prof %></p>
+        </div>
+      <%}) %>
+    </div>
+  <!-- ============================================= -->
+  <!-- consultores -->
+    <div class="text-center blue">
+      <p class="title">Consultores</p>
+    </div>
+    <div class="row">
+      <% consultores.forEach(function(consultor){ %>
+        <div class="col-xs-12 col-md-6 col-lg-4 text-center mt-2">
+          <a href="/equipo/consultores/<%=consultor._id%>"><img class="w-50" src="<%= consultor.img %>" alt=""></a>
+          <!-- <img class="w-50" src="<%= consultor.img %>" alt=""> -->
+          <p class="mb-0"><%= consultor.namesm %></p>
+          <p><%= consultor.prof %></p>
+        </div>
+      <%}) %>
+    </div>
+
+    <!-- ============================================= -->
+    <!-- colaboradores -->
+    <div class="text-center blue">
+      <p class="title">Colaboradores</p>
+    </div>
+      <div class="row align-items-center m-auto">
+        <% colaboradores.forEach(function(colaborador){ %>
+          <div class="col-xs-12 col-md-6 col-lg-4 text-center mt-2">
+            <a href="/equipo/colaboradores/<%=colaborador._id%>"><img class="w-50" src="<%= colaborador.img %>" alt=""></a>
+            <p class="mb-0"><%= colaborador.namesm %></p>
+            <p><%= colaborador.prof %></p>
+          </div>
+        <%}) %>
+      </div>
+
+      <!-- aliados estratégicos ============================== -->
+      <div class="text-center blue">
+        <p class="title">Aliados Estratégicos</p>
+      </div>
+      <div class="row align-items-center m-auto">
+        <% aliados.forEach(function(aliado){ %>
+          <div class="col-xs-12 col-md-6 col-lg-4 text-center mt-2">
+            <a href="/equipo/aliados/<%=aliado._id%>"><img class="w-50" src="<%= aliado.img %>" alt=""></a>
+            <p class="mb-0"><%= aliado.namesm %></p>
+            <p><%= aliado.prof %></p>
+          </div>
+        <%}) %>
+      </div>
+    </section>
+
+
+    <!-- Apoyo del tec y central -->
+    <div class="text-center mb-0">
+      <p>Contamos con el apoyo del Departamento de Innovación 
+        y Central de Cambio del Tecnológico de Monterrey.</p>
+    </div>
+    <%- include("./partials/footer") %>

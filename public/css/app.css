@@ -1,0 +1,307 @@
+/* jumbotrons */
+#mujeres{
+    background:url("../imgs/home.jpg");
+    height:500px;
+    background-size: cover;
+    background-position: center;
+}
+
+/* jumbotron en empresas */
+#empresas{
+    background:url("https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+    height:500px;
+    background-size: cover;
+    background-position: center;
+}
+
+/* body */
+body{
+    font-family: oxygen;
+    color:rgb(116, 116, 116);
+    margin-bottom:0;
+    padding-bottom: 0;
+    font-size: 1.1rem;
+}
+
+/* footer */
+.footer div i{
+    color:rgb(116, 116, 116);
+}
+.footer img:nth-child(1){
+    width: 15%;
+}
+.footer img:nth-child(2){
+    width: 10%;
+}
+
+/* content */
+
+/* all h1 */
+h1{
+    color:RGB(64, 181, 186);
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.blue{
+    background-color:RGB(64, 181, 186);
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.utilities img{
+    width:90%;
+}
+
+#app {
+    width: 80%;
+}
+
+/* home */
+.home{
+    width: 200px;
+}
+#equipo{
+    background: url("../imgs/inicio.jpg");
+    background-size: cover;
+    background-position: center;
+    height:250px
+}
+#woman{
+    background: url("https://images.unsplash.com/photo-1520466809213-7b9a56adcd45?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+.tagline{
+    background-color: rgba(64, 181, 186,0.8);
+    margin-top: 10rem;
+    color: white;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+/* title for the FAQ */
+.title{
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+#moreinfo{
+    font-weight: 500;
+}
+
+.iphone{
+    width: 40%;
+}
+
+/* show */
+.quote{
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: rgb(64, 181, 186);
+    padding: 2%;
+    max-width: 500px;
+    min-width: 400px;
+}
+
+/* equipo */
+.equipo{
+    width: 80%;
+}
+.equipo img{
+    margin-bottom: 2%;
+}
+.li-title{
+    background-color: RGB(64, 181, 186);
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: white;
+}
+.li-element{
+    color: rgb(116, 116, 116);
+}
+.li-element:hover{
+    color: rgb(64, 181, 186);
+}
+
+/* Empresas */
+.empresa i{
+    color: RGB(64, 181, 186);
+}
+/* 5 keypoints */
+.key-icon{
+    color:RGB(64, 181, 186);
+}
+.key-title{
+    background-color:RGB(64, 181, 186);
+    color: white;
+    font-weight: 700;
+    padding:0.5rem;
+    text-align: center;
+}
+.key-points{
+    color:rgb(116, 116, 116);
+    padding: 1.1rem;
+    width: 18%;
+    text-align: left;
+}
+#steps{
+    width: 100%;
+}
+.certmode{
+    color:rgb(64, 181, 186);
+}
+
+/* espera noticias muy pronto */
+.blue-title{
+    background-color: RGB(64, 181, 186);
+    font-size: 1.5rem;
+    color: white;
+    padding: 0.5rem;
+}
+
+/* navbar */
+#brand{
+    color:RGB(64, 181, 186);
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.navbar-toggler{
+    border:none;
+}
+
+.nav-link{
+    color:rgb(116, 116, 116);
+    font-weight: 400;
+}
+
+.nav-link:hover{
+    color:RGB(64, 181, 186);
+}
+
+#brand:hover{
+    color:rgb(116, 116, 116);
+}
+
+#active{
+    color:RGB(64, 181, 186);
+    font-weight: 600;
+}
+/* ends navbar */
+
+/* images */
+img{
+    width: 80%;
+}
+
+/* buttons */
+.btn{
+    font-weight: 500;
+    color: RGB(64, 181, 186);
+    border:RGB(64, 181, 186),solid,3px;
+}
+
+/* buttons when hovered */
+.btn:hover{
+    background:RGB(64, 181, 186);
+    color: white;
+    font-weight: 500;
+
+}
+
+/* contacto */
+#contacto i{
+    color: RGB(64, 181, 186);
+}
+.fundadores p{
+    font-family: arial;
+}
+
+/* instagram icon */
+#ig{
+    size: 100px;
+}
+
+#info img{
+    width: 5%;
+}
+
+
+section{
+    width: 70%;
+    margin: 50px auto;
+}
+
+/* Form */
+.short{
+    width: 100%;
+}
+    
+.large{
+    width: 90%;
+    height: 100px;
+}
+
+.drop{
+    width: 100%;
+}
+
+.resaltar{
+    background:RGB(64, 181, 186);
+    font-weight: 500;
+    color: white;
+}
+
+.key p{
+    width: 70%;
+    margin:auto;
+}
+
+#vinner{
+    margin-bottom: 50px;
+}
+
+span i{
+    color:rgb(184, 184, 184);
+}
+
+/* imagenes */
+#vision{
+    width:100px;
+    height: 120px;
+}
+#mision{
+    width:100px;
+    height: 120px;
+}
+.nosotros h2{
+    font-size: 1.5rem;
+}
+
+/* quote in quienes somos */
+#quote{
+    color:white;
+    font-size: 1.2rem;
+    font-weight:400;
+    background:rgb(64, 181, 186);
+    padding:5%;
+}
+
+#val img{
+    width: 230px;
+    height: 300px;
+}
+
+span img{
+    width: 10%;
+}
+
+.selectedimg{
+    color:RGB(64, 181, 186)
+}
+
+.removeimg{
+    color:rgb(184, 184, 184);
+}

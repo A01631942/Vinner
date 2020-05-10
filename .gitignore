@@ -1,0 +1,9 @@
+node_modules
+readme.md 
+variables.env
+colaboradors.json
+consultors.json
+fundadors.json
+aliados.json
+.DS_Store
+extra

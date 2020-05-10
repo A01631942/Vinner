@@ -1,0 +1,32 @@
+<%- include("../partials/header") %>
+<section>
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-3 d-none d-lg-block">
+                <h4 class="text-center">Vinner</h4>
+                <div class="list-group">
+                    <!-- fundadores -->
+                    <li class="list-group-item li-title">
+                        Consultores
+                    </li>
+                    <%consultores.forEach(function(consultor){%>
+                        <li class="list-group-item">
+                            <a class="li-element" href="/equipo/consultores/<%=consultor._id%>"><%=consultor.namesm%></a>
+                        </li>
+                    <%})%>
+                    <a href="/equipo" class="mt-3 btn btn-outline-info">Equipo</a>
+                </div>
+            </div>
+            <div class="col-md-9 text-center">
+                <h1>Conoce a los cosultores</h1>
+                <div class="text-center show">
+                    <h2><%= consultor.namelg %></h2> 
+                    <img class="w-50" src="<%=consultor.img%>" class="card-img-top" alt="...">
+                    <h5 class="mt-3"><%= consultor.description %></h5>
+                </div>
+                <h1>#soyvinner</h1>
+            </div>
+                  
+        </div>
+</section>
+
+<%- include("../partials/footer") %>
