@@ -6,6 +6,11 @@ var Fundador   = require("../models/fundador");
 var Colaborador   = require("../models/colaborador");
 var Consultor   = require("../models/consultor");
 var Aliado     = require("../models/aliado");
+var fundadores = require("../js/fundadores");
+var colaboradores = require("../js/colaboradores");
+var aliados = require("../js/aliados");
+var consultores = require("../js/consultores");
+var seed = require("../seed");
 
 //HOME
 router.get("/", function(req, res){
@@ -22,13 +27,17 @@ router.get("/vinner", function(req, res){
 	res.render("quien", {title:"Nosotros"});
 })
 
+router.get("/test", function(req,res){
+	res.send("todo bien");
+})
+
 //CONTACTO
 router.get("/contacto", function(req, res){
 	res.render("contacto", {title:"Contacto"});
 })
 
 //EQUIPO
-router.get("/equipo", function(req, res){
+router.get("/equipo2", function(req, res){
 	Fundador.find({},function(err,fundadores){
 		if(err){
 			res.redirect("back");
@@ -52,6 +61,11 @@ router.get("/equipo", function(req, res){
 		})
 	});
 })
+
+// EQUIPO
+router.get("/equipo", function(req, res){
+	res.render("equipo", {title:"Equipo2", fundadores:fundadores, consultores:consultores, aliados:aliados, colaboradores:colaboradores});
+});
 
 // CERTIFICACIONES
 router.get("/certificaciones", function(req,res){
