@@ -14,16 +14,8 @@ var appRoutes = require("./routes/index");
 var showRoutes = require("./routes/show");
 var postRoutes = require("./routes/post");
 
-
 // importar variables de entorno locales
 require("dotenv").config({path: "./variables.env"});
-
-// APP CONFIG
-// require("dotenv").config({path:"variables.env"});
-// mongoose.connect(process.env.DB_URL, 
-//     {useNewUrlParser: true, useUnifiedTopology: true});
-// mongoose.set('useCreateIndex', true);
-// mongoose.set('useFindAndModify', false);
 
 mongoose.connect(process.env.DB_URL, {useNewUrlParser: true, useUnifiedTopology: true});
 mongoose.set('useCreateIndex', true);
@@ -34,15 +26,10 @@ app.use(express.static(__dirname + '/public'));
 
 app.set("view engine", "ejs");
 
-
 // use routing files
 app.use(appRoutes);
 app.use(showRoutes);
 app.use(postRoutes);
-
-// app.listen(3000, function(){
-// 	console.log("Server listening on port 3000 Vinner");
-// })
 
 const host= process.env.HOST || "0.0.0.0";
 const port = process.env.PORT || 3000;
