@@ -8,11 +8,11 @@ var colaboradores=[
      description: "Estudiante de Ingeniería Mecatrónica con experiencia en desarrollo web e interés por iniciativas sociales."},
     // Rebeca
      {show:"rebecarey",
-     namelg: "Rebeca Reyes",
+     namelg: "Rebeca Reyes Siqueiros",
       namesm:"Rebeca Reyes",
      img: "../../imgs/Equipo/rebe.png",
      prof: "Estudiante de Ing. Mecatrónica",
-     description: "Estudiante de derecho en la Universidad de Guadalajara y activista por los Derechos Humanos."}]
+     description: "Estudiante de Ingeniería Mecatrónica en el Tecnológico de Monterrey."}]
 
 module.exports=colaboradores;
     
