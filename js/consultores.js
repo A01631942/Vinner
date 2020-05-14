@@ -3,14 +3,14 @@ var consultores=[
     {show:"myrnaojeal",
     namelg: "Mtra. Myrna Ojeda Álvarez",
     namesm: "Myrna Ojeda",
-     img: "../../imgs/Equipo/myrna.png",
+     img: "../../imgs/Equipo/myrna1.png",
      prof: "Consultora en Ciencias Sociales y Acoso Callejero",
      description: "Licenciada en Letras Hispánicas, Maestra en Ciencias del Lenguaje y candidata a Doctora en Ciencias Sociales. Investigadora especialista en análisis del discurso (hermenéutica crítica) con énfasis en violencia de género y resistencias de mujeres."},
     // Regidora María
      {show:"mariagomrue",
      namelg: "María Gómez Rueda",
      namesm: "María Gómez",
-     img: "../../imgs/Equipo/regidora.png",
+     img: "../../imgs/Equipo/maria.png",
      prof: "Regidora de Derechos Humanos e Igualdad de Género de Zapopan",
      description: "Regidora de Derechos Humanos e Igualdad de Género de Zapopan. Especialista en Odontopediatría y académica en la Universidad de Guadalajara."},
     // Daniela Bocanegra
@@ -24,7 +24,7 @@ var consultores=[
     {show:"giovannilopram",
     namelg: "Giovanni Daniel López Ramírez",
     namesm:"Giovanni López",
-    img: "../../imgs/Equipo/giovanni.png",
+    img: "../../imgs/Equipo/gio.png",
     prof:"Consultor en Seguridad Pública y Derechos Humanos",
     description: "Estudiante de derecho en la Universidad de Guadalajara y activista por los Derechos Humanos."},
     // Janis
