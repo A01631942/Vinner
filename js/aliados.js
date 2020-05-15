@@ -4,8 +4,8 @@ var aliados=[
      namelg: "Alejandro Morales",
      namesm: "Alex Morales",
      img: "../../imgs/Equipo/alex.png",
-     prof: "Coordinador y CO-Fundador de Central de Cambio del Tec de Monterrey",
-     description: "Diseñador Industrial por el Tecnológico de Monterrey, co-fundador y coordinador de la Central de Cambio del Tecnológico de Monterrey Campus Guadalajara. Además es líder nacional del Festival universitario de innovación social Changemaker Day. Se ha especializado en incubación, adaptación y diseño de metodologías para el emprendimiento social. Cree firmemente que la creatividad, la innovación y el diseño son agentes de transformación social, es por ello que trabaja generando espacios y plataformas para los innovadores sociales. Su propósito es inspirar líderes agentes de cambio. Diseñador, creativo y agente de cambio. Inspirado a desarrollar una generación de líderes emprendedores agentes de cambio. Fundador del Changemaker Day, impulsor de la comunidad Changemaker y co-creador de espacios y programas para el emprendimiento social en el Tec."},
+     prof: "Director del Centro de Innovación",
+     description: "Diseñador Industrial por el Tecnológico de Monterrey, co-fundador de Central de Cambio y director del Centro de Innovación del Tecnológico de Monterrey Campus Guadalajara. Además es líder nacional del Festival universitario de innovación social Changemaker Day. Se ha especializado en incubación, adaptación y diseño de metodologías para el emprendimiento social. Cree firmemente que la creatividad, la innovación y el diseño son agentes de transformación social, es por ello que trabaja generando espacios y plataformas para los innovadores sociales. Su propósito es inspirar líderes agentes de cambio. Diseñador, creativo y agente de cambio. Inspirado a desarrollar una generación de líderes emprendedores agentes de cambio. Fundador del Changemaker Day, impulsor de la comunidad Changemaker y co-creador de espacios y programas para el emprendimiento social en el Tec."},
     // Paty
      {show:"patriciacueser",
      namelg: "Patricia Cuevas Servín",

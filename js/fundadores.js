@@ -14,7 +14,7 @@ namelg: "Jesús Edgar Lamarque Tirado",
  namesm: "Edgar Lamarque",
  img: "../../imgs/Equipo/edgar-color.png",
  prof: "Estudiante de Ing. Mecánic Administrador",
- description: "Estudiante de Ingeniería Mecánico Administrador en el Tecnológico de Monterrey. Emprendedor Social con trayectoria en distintas áreas del emprendimiento. CO - fundador y director de marketing de Vinner.",
+ description: "Emprendedor, empresario, networker profesional y Co - fundador de Vinner. Ha colaborado en distintos proyectos a lo largo de su carrera, inspirando a distintos líderes y especialistas a qué generan iniciativas rentables y sustentables en beneficio de un bienestar integral para la comundidad. Le gusta creer y apostar en el potencial qué cada persona tiene.",
  quote: "Mi propósito es impactar la vida de un millón de personas para que cumplan sus sueños y hagan de este mundo un lugar mejor",
  linkedin: "https://www.linkedin.com/in/valeria-toscano-alcala/" }
 ]
