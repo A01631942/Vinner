@@ -20,34 +20,22 @@ function findObject(array, key, value) {
 // SHOW FUNDADORES
 router.get("/equipo/fundadores/:show",function(req,res){	
     var fundador = findObject(fundadores, "show", req.params.show);
-    res.render("show/fundador", {title:fundador.namesm, fundador:fundador});
+    res.render("show/fundador", {title:fundador.namesm, fundador:fundador, fundadores:fundadores});
 });
 // SHOW CONSULTORES
 router.get("/equipo/consultores/:show",function(req,res){	
     var consultor = findObject(consultores, "show", req.params.show);
-    res.render("show/consultor", {title:consultor.namesm, consultor:consultor});
+    res.render("show/consultor", {title:consultor.namesm, consultor:consultor, consultores:consultores});
 });
 // SHOW COLABORADORES
 router.get("/equipo/colaboradores/:show",function(req,res){	
     var colaborador = findObject(colaboradores, "show", req.params.show);
-    res.render("show/colaborador", {title:colaborador.namesm, colaborador:colaborador});
+    res.render("show/colaborador", {title:colaborador.namesm, colaborador:colaborador, colaboradores:colaboradores});
 });
 // SHOW ALIADOS
 router.get("/equipo/aliados/:show",function(req,res){	
     var aliado = findObject(aliados, "show", req.params.show);
-    res.render("show/aliado", {title:aliado.namesm, aliado:aliado});
+    res.render("show/aliado", {title:aliado.namesm, aliado:aliado, aliados:aliados});
 });
-
-// SHOW ALIADOS
-// router.get("/equipo/aliados/:id",function(req,res){	
-//     Aliado.findById(req.params.id, function(err,aliado){
-//         if(err){
-//             res.redirect("back");
-//         }
-//         Aliado.find({}, function(err, aliados){
-//             res.render("show/aliado", {title:aliado.namelg, aliado:aliado, aliados:aliados});
-//         })
-//     });
-// });
 
 module.exports = router;

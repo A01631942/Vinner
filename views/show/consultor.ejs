@@ -8,9 +8,12 @@
                     <li class="list-group-item li-title">
                         Consultores
                     </li>
-                        <li class="list-group-item">
-                            <a class="li-element" href="/equipo/consultores/<%=consultor.show%>"><%=consultor.namesm%></a>
-                        </li>
+                        <% consultores.forEach(function(consultor){%>
+                            <li class="list-group-item">
+                                <a class="li-element" href="/equipo/consultores/<%=consultor.show%>"><%=consultor.namesm%></a>
+                            </li>  
+                        <%})%>%>
+                        
                     <a href="/equipo" class="mt-3 btn btn-outline-info">Equipo</a>
                 </div>
             </div>

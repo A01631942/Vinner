@@ -8,9 +8,12 @@
                     <li class="list-group-item li-title">
                         Fundadores
                     </li>
+                    <%fundadores.forEach(function(fundador){%>
                         <li class="list-group-item">
                             <a class="li-element" href="/equipo/fundadores/<%=fundador.show%>"><%=fundador.namesm%></a>
                         </li>
+                    <%})%>
+                        
                     <a href="/equipo" class="mt-3 btn btn-outline-info">Equipo</a>
                 </div>
             </div>
