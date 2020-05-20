@@ -12,7 +12,7 @@ var colaboradores=[
       namesm:"Rebeca Reyes",
      img: "../../imgs/Equipo/rebe.png",
      prof: "Estudiante de Ing. Mecatrónica",
-     description: "Estudiante de Ingeniería Mecatrónica en el Tecnológico de Monterrey."}]
+     description: "Ingeniera Mecatrónica graduada del Tecnológico de Monterrey, emprendedora social apasionada, entusiasta y sensible. Apasionada por el feminismo, la justicia, la tecnología y la política y participación ciudadana. - Quiero aportar a mi sociedad a través del amor, el liderazgo, el emprendimiento y la colaboración-"}]
 
 module.exports=colaboradores;
     
