@@ -81,6 +81,10 @@ h1{
     font-weight: 600;
     font-size: 1.3rem;
 }
+
+.logo{
+    width: 15%;
+}
 /* title for the FAQ */
 .title{
     font-size: 1.4rem;
@@ -304,4 +308,15 @@ span img{
 
 .removeimg{
     color:rgb(184, 184, 184);
+}
+
+@media (max-width: 1000px){
+    .mobile{
+        flex-direction: column;
+        align-items: center;
+    }
+    .equipo p{
+        font-size: 1.5rem;
+    }
+
 }
