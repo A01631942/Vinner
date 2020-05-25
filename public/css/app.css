@@ -327,4 +327,7 @@ span img{
     #steps div{
         width: 70%;
     }
+    #toggle-content{
+        font-size: 2rem;
+    }
 }
