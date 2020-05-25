@@ -318,5 +318,10 @@ span img{
     .equipo p{
         font-size: 1.5rem;
     }
-
+    body p{
+        font-size: 1.5rem;
+    }
+    nav{
+        font-size: 1.5rem;
+    }
 }
