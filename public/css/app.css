@@ -150,8 +150,8 @@ h1{
     width: 18%;
     text-align: left;
 }
-#steps{
-    width: 100%;
+#steps div{
+    width: 18%;
 }
 .certmode{
     color:rgb(64, 181, 186);
@@ -323,5 +323,8 @@ span img{
     }
     nav{
         font-size: 1.5rem;
+    }
+    #steps div{
+        width: 70%;
     }
 }
