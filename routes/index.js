@@ -10,7 +10,7 @@ var seed = require("../seed");
 
 //HOME
 router.get("/", function(req, res){
-	res.render("home", {title:"Vinner"});
+	res.render("home", {title:"Vinner mx"});
 })
 
 // APP VINNER
