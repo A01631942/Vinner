@@ -23,7 +23,9 @@ linkedin: "https://www.linkedin.com/in/valeria-toscano-alcala/"},
   namesm:"Rebeca Reyes",
  img: "../../imgs/Equipo/rebe.png",
  prof: "Director Ejecutivo de Tecnología",
- description: "Ingeniera Mecatrónica graduada del Tecnológico de Monterrey, emprendedora social apasionada, entusiasta y sensible. Apasionada por el feminismo, la justicia, la tecnología y la política y participación ciudadana. - Quiero aportar a mi sociedad a través del amor, el liderazgo, el emprendimiento y la colaboración-"}
+ description: "Ingeniera Mecatrónica graduada del Tecnológico de Monterrey, emprendedora social apasionada, entusiasta y sensible. Apasionada por el feminismo, la justicia, la tecnología y la política y participación ciudadana.",
+ quote:"Soy apasionada, entusiasta y sensible. Quiero aportar a mi sociedad con el emprendimiento, el amor, el liderazgo y la colaboración",
+ linkedin:"https://mx.linkedin.com/in/rebecasicairos/es-es"}
 ]
 
  module.exports = fundadores;

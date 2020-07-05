@@ -12,7 +12,9 @@ var mongoose = require("mongoose");
 // routes
 var appRoutes = require("./routes/index");
 var showRoutes = require("./routes/show");
-var postRoutes = require("./routes/post");
+// var postRoutes = require("./routes/post");
+// var appRoutesEnglish = require("./routes/indexEnglish");
+// var showRoutesEnglish = require("./routes/showEnglish");
 
 // importar variables de entorno locales
 require("dotenv").config({path: "./variables.env"});
@@ -29,7 +31,9 @@ app.set("view engine", "ejs");
 // use routing files
 app.use(appRoutes);
 app.use(showRoutes);
-app.use(postRoutes);
+// app.use(appRoutesEnglish);
+// app.use(showRoutesEnglish);
+// app.use(postRoutes);
 
 const host= process.env.HOST || "0.0.0.0";
 const port = process.env.PORT || 3000;
