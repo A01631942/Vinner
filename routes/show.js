@@ -27,7 +27,7 @@ router.use(express.static(__dirname + '/public'));
 // SHOW FUNDADORES
 router.get("/equipo/fundadores/:show",function(req,res){	
     var fundador = findObject(fundadores, "show", req.params.show);
-    res.render("show/fundadorEnglish", {title:fundador.namesm, fundador:fundador, fundadores:fundadores});
+    res.render("show/fundador", {title:fundador.namesm, fundador:fundador, fundadores:fundadores});
 });
 // SHOW CONSULTORES
 router.get("/equipo/consultores/:show",function(req,res){	

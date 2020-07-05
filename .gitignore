@@ -10,6 +10,8 @@ extra
 equipo2.ejs
 views/new
 routes/new.js
+routes/extra.js
+routes/post.js
 pagina web.ai 
 Vinner WebPage.png 
 seed.js
