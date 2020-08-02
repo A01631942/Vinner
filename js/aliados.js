@@ -43,6 +43,35 @@ var aliados=[
      prof: "Acceso al HUB ESi",
      description:"Vinculación con el programa HUB ESi el cual está coordinado por Central de Cambio en el Tecnológico de Monterrey. Vinculación con especialistas en temas de género, emprendimiento y financiamiento.",
      pagina:"https://www.instagram.com/centraldecambiogdl/"},
+    // Armando
+     {show:"armandomorquecho",
+     namelg: "Armando Morquecho Camacho",
+     namesm:"Armando Morquecho",
+     img: "../../imgs/equipo/armando.png",
+     prof: "Presidente de Voces de México A.C. ",
+     description:"Licenciado en Derecho por la Universidad Panamericana. Abogado especializado en Derecho Corporativo y la Empresa. Columnista para Jalisco News. Presidente de Voces de México A.C."},
+    // Daniel
+     {show:"danielascencio",
+     namelg: "Daniel Ascencio",
+     namesm:"Daniel Ascencio",
+     img: "../../imgs/equipo/daniel.png",
+     prof: "Coordinador de Voces de México A.C.",
+     description:"Licenciado en Derecho por la Universidad de Guadalajara. Abogado especializado en derecho fiscal & comercio exterior en Ramos Ripoll & Schuster. Coordinador en Voces de México AC",
+     pagina:"https://www.instagram.com/centraldecambiogdl/"},
+    // Betsy
+     {show:"betsyhernandez",
+     namelg: "Betsy Daniela Hernández Alcaraz",
+     namesm:"Betzy Hernández",
+     img: "../../imgs/equipo/betsy.png",
+     prof: "Coordinadora de Voces de México A.C.",
+     description:"Estudiante de Derecho. Directora distrito 06 por la Red Mundial de Jóvenes Políticos. Delegada Estatal de Manos a la Obra Contra la Necesidad A.C. Coordinadora de Voces de México A.C. Vicepresidenta Coparmex Iteso. Presidenta del Consejo INCIDE. Diputada Juvenil Parlamento Revolucionario, Comisión de Igualdad sustantiva y género"},
+    // Central
+     {show:"vocesmexico",
+     namelg: "Vóces de México A.C.",
+     namesm:"Voces de México A.C.",
+     img: "../../imgs/equipo/voces.png",
+     prof: "Asociación Civil",
+     description:"Organización Civil que busca reunir las voces de los jóvenes que están interesados en cambiar la política."}
     ]
 
 module.exports = aliados;
